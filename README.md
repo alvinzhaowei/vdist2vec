@@ -29,7 +29,7 @@ We aim to predict $d(v_i, v_j)$ given $v_i$ and $v_j$ with a high  accuracy and 
 </p>
 
 ## Data
-The datasets are from:\
+The datasets are from:
 
 Camil Demetrescu, Andrew Goldberg, and David Johnson. 2006. 9th DIMACS implementation challenge–Shortest Paths. American Math. Society (2006).
 
