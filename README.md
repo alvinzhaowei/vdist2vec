@@ -4,7 +4,7 @@ Jianzhong Qi, Wei Wang, Rui Zhang, Zhuowei Zhao∗. "[A Learning Based Approach 
 
 # Problem definition
 
-We consider a road network graph <img height="15" src=./equations/eq1.gif>, where V is a set of n vertices  (road intersections)  and E is a set of m edges (roads). 
+We consider a road network graph <src=./equations/eq1.gif>, where V is a set of n vertices  (road intersections)  and E is a set of m edges (roads). 
 A vertex <img height="15" src=./equations/eq2.gif> has a pair of geo-coordinates. An edge <img height="15" src=./equations/eq3.gif> connects two vertices <img height="15" src=./equations/vi.gif> and <img height="15" src=./equations/vj.gif>, and has a weight <img height="15" src=./equations/eq4.gif>, which represents the  distance to travel across the edge. For simplicity, in what follows, our discussions assume undirected edges, although our techniques also work for directed edges. 
 
 A path <img height="10" src=./equations/eq5.gif> between vertices 
