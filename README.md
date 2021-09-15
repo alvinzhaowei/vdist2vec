@@ -64,10 +64,11 @@ path distance approximation using deep learning techniques. In ASONAM.
 If you find this repository useful in your research, please cite the following paper:
 
 ```
-@article{qi2020learning,
+@inproceedings{qi2020learning,
   title={A learning based approach to predict shortest-path distances},
   author={Qi, Jianzhong and Wang, Wei and Zhang, Rui and Zhao, Zhuowei},
-  year={2020},
-  publisher={Open Proceedings}
+  booktitle={23rd International Conference on Extending Database Technology (EDBT)},
+  pages={367--370},
+  year={2020}
 }
 ```
