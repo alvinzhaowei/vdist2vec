@@ -32,6 +32,15 @@ Alireza Karduni, Amirhassan Kermanshah, and Sybil Derrible. 2016. A protocol to 
   <img src=./figure/results.PNG>
 </p>
 
+Baselines:
+landmark-bt:
+it uses the top-k vertices passed by the largest numbers of shortest paths between the vertex pairs as the landmarks; 
+landmarkkm: 
+it uses the k vertices that are the closest to the vertex kmeans centroids (computed in Euclidean space) as the landmarks;
+ado: it recursively partitions the vertices into subsets of well separated vertices and stores the distance between subsets to
+approximate the distance between vertices (we tune its approximation parameter ϵ such that it has a similar space cost to ours);
+geodnn: it trains an MLP to predict the distance of two vertices given their geo-coordinates (we use its recommended settings); 
+node2vec: it uses node2vec to learn vertex embeddings and trains an MLP to predict vertex distances given the learned embeddings (we use its recommended settings).
 
 ## Citation
 If you find this repository useful in your research, please cite the following paper:
