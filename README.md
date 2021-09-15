@@ -5,16 +5,16 @@ Jianzhong Qi, Wei Wang, Rui Zhang, Zhuowei Zhao∗. "[A Learning Based Approach 
 # Problem definition
 
 We consider a road network graph <img src=./equations/eq1.gif>, where V is a set of n vertices  (road intersections)  and E is a set of m edges (roads). 
-A vertex <img height="15" src=./equations/eq2.gif> has a pair of geo-coordinates. An edge <img height="15" src=./equations/eq3.gif> connects two vertices <img height="15" src=./equations/vi.gif> and <img height="15" src=./equations/vj.gif>, and has a weight <img height="15" src=./equations/eq4.gif>, which represents the  distance to travel across the edge. For simplicity, in what follows, our discussions assume undirected edges, although our techniques also work for directed edges. 
+A vertex <img src=./equations/eq2.gif> has a pair of geo-coordinates. An edge <img src=./equations/eq3.gif> connects two vertices <img src=./equations/vi.gif> and <img src=./equations/vj.gif>, and has a weight <img src=./equations/eq4.gif>, which represents the  distance to travel across the edge. For simplicity, in what follows, our discussions assume undirected edges, although our techniques also work for directed edges. 
 
-A path <img height="10" src=./equations/eq5.gif> between vertices 
-<img height="10" src=./equations/vi.gif> and <img height="10" src=./equations/vj.gif> consists of a sequence of vertices <img height="10" src=./equations/eq6.gif> 
-such that there is an edge between any two adjacent vertices in the sequence.  The length of <img height="10" src=./equations/eq5.gif>, denoted by <img height="10" src=./equations/eq7.gif>, is the sum of the weights of the edges between  adjacent vertices in <img height="10" src=./equations/eq5.gif>, i.e., 
-<img height="10" src=./equations/eq8.gif>
-We are interested in the path  <img height="10" src=./equations/eq9.gif> between <img height="10" src=./equations/vi.gif> and <img height="10" src=./equations/vj.gif> with the smallest length, i.e., the shortest path. 
-Its length is the (shortest-path) distance <img height="10" src=./equations/eq10.gif> between <img height="10" src=./equations/vi.gif> and <img height="10" src=./equations/vj.gif>, i.e., 
-<img height="10" src=./equations/eq11.gif>.
-We aim to predict <img height="10" src=./equations/eq10.gif> given <img height="10" src=./equations/vi.gif> and <img height="10" src=./equations/vj.gif> with a high accuracy and efficiency, which is defined as the shortest-path distance query. 
+A path <img src=./equations/eq5.gif> between vertices 
+<img src=./equations/vi.gif> and <img src=./equations/vj.gif> consists of a sequence of vertices <img src=./equations/eq6.gif> 
+such that there is an edge between any two adjacent vertices in the sequence.  The length of <img src=./equations/eq5.gif>, denoted by <img src=./equations/eq7.gif>, is the sum of the weights of the edges between  adjacent vertices in <img src=./equations/eq5.gif>, i.e., 
+<img src=./equations/eq8.gif>
+We are interested in the path  <img src=./equations/eq9.gif> between <img height="10" src=./equations/vi.gif> and <img src=./equations/vj.gif> with the smallest length, i.e., the shortest path. 
+Its length is the (shortest-path) distance <img src=./equations/eq10.gif> between <img src=./equations/vi.gif> and <img src=./equations/vj.gif>, i.e., 
+<img src=./equations/eq11.gif>.
+We aim to predict <img src=./equations/eq10.gif> given <img src=./equations/vi.gif> and <img src=./equations/vj.gif> with a high accuracy and efficiency, which is defined as the shortest-path distance query. 
 
 # Model
 <p align="center">
