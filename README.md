@@ -4,7 +4,7 @@ Jianzhong Qi, Wei Wang, Rui Zhang, Zhuowei Zhao∗. "[A Learning Based Approach 
 
 # Problem definition
 
-We consider a road network graph <img src=./equations/eq1.gif>, where $V$ is a set of $n$ vertices  (road intersections)  and $E$ is a set of $m$ edges (roads). 
+We consider a road network graph <img width="10" height="5" src=./equations/eq1.gif>, where $V$ is a set of $n$ vertices  (road intersections)  and $E$ is a set of $m$ edges (roads). 
 A vertex $v_i \in V$ has a pair of geo-coordinates. An edge $e_{i,j} \in E$  connects two vertices $v_i$ and $v_j$, and has 
  a \emph{weight}  $e_{i,j}.w$, which represents the  distance to travel across the edge. 
  Fig.~\ref{fig:motivation}a shows an example, where $v_1, v_2, ... , v_5$ are the vertices, and the numbers on the edges are the weights. 
@@ -25,7 +25,7 @@ We aim to predict $d(v_i, v_j)$ given $v_i$ and $v_j$ with a high  accuracy and 
 
 # Model
 <p align="center">
-  <img width="600" height="450" src=./figure/model.PNG>
+  <img src=./figure/model.PNG>
 </p>
 
 ## Data
@@ -37,7 +37,7 @@ Alireza Karduni, Amirhassan Kermanshah, and Sybil Derrible. 2016. A protocol to 
 
 ## Results
 <p align="center">
-  <img width="900" height="400" src=./figure/results.PNG>
+  <img src=./figure/results.PNG>
 </p>
 
 
