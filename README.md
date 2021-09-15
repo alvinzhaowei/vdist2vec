@@ -4,7 +4,7 @@ Jianzhong Qi, Wei Wang, Rui Zhang, Zhuowei Zhao∗. "[A Learning Based Approach 
 
 # Problem definition
 
-We consider a road network graph <img width="10" height="5" src=./equations/eq1.gif>, where $V$ is a set of $n$ vertices  (road intersections)  and $E$ is a set of $m$ edges (roads). 
+We consider a road network graph <img width="20" height="10" src=./equations/eq1.gif>, where $V$ is a set of $n$ vertices  (road intersections)  and $E$ is a set of $m$ edges (roads). 
 A vertex $v_i \in V$ has a pair of geo-coordinates. An edge $e_{i,j} \in E$  connects two vertices $v_i$ and $v_j$, and has 
  a \emph{weight}  $e_{i,j}.w$, which represents the  distance to travel across the edge. 
  Fig.~\ref{fig:motivation}a shows an example, where $v_1, v_2, ... , v_5$ are the vertices, and the numbers on the edges are the weights. 
@@ -44,9 +44,11 @@ Alireza Karduni, Amirhassan Kermanshah, and Sybil Derrible. 2016. A protocol to 
 ## Citation
 If you find this repository useful in your research, please cite the following paper:
 
+```
 @article{qi2020learning,
   title={A learning based approach to predict shortest-path distances},
   author={Qi, Jianzhong and Wang, Wei and Zhang, Rui and Zhao, Zhuowei},
   year={2020},
   publisher={Open Proceedings}
 }
+```
