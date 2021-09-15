@@ -1,8 +1,8 @@
 # vdist2vec
 vdist2vec model in paper **A Learning Based Approach to Predict Shortest-Path Distances**
 
-## 
-We consider a road network graph $G = \langle V, E \rangle$, where $V$ is a set of $n$ vertices  (road intersections)  and $E$ is a set of $m$ edges (roads). 
+## Problem definition
+We consider a road network graph ```G = \langle V, E \rangle```, where ```V``` is a set of $n$ vertices  (road intersections)  and $E$ is a set of $m$ edges (roads). 
 A vertex $v_i \in V$ has a pair of geo-coordinates. An edge $e_{i,j} \in E$  connects two vertices $v_i$ and $v_j$, and has 
  a \emph{weight}  $e_{i,j}.w$, which represents the  distance to travel across the edge. 
  Fig.~\ref{fig:motivation}a shows an example, where $v_1, v_2, ... , v_5$ are the vertices, and the numbers on the edges are the weights. 
